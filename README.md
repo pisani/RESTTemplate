@@ -28,7 +28,9 @@ To install this template into your Cache development environment, for use across
 4. Provide a description (optional)
 5. Select 'Handle Cors Request' if CORS support is to be the default for this class.
 6. Specify Routes in the ROUTES data grid.  For each route (eg /customers/:ID) specify a REST Method (eg: 'GET') and a method name to use for this call (eg 'getCustomers').
-	- do not specify arguments in the method name, as they will be inserted based on the REST url (referring to the example able the following will be Generated: 
+   Do not specify arguments in the method name.  They will be autmatically inserted using REST url as a reference.
+   
+   Using the above examples, the following method will be generated in the Dispatch class:
 	
 	```
 	/// <Route Url="/customers/:ID" Method= "GET" Call="getCustomers" Cors="false"/>
