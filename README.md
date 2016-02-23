@@ -30,7 +30,7 @@ To install this template into your Cache development environment, for use across
 6. Specify Routes in the ROUTES data grid.  For each route (eg /customers/:ID) specify a REST Method (eg: 'GET') and a method name to use for this call (eg 'getCustomers').
 	- do not specify arguments in the method name, as they will be inserted based on the REST url (referring to the example able the following will be Generated: 
 	
-	'''
+	```
 	/// <Route Url="/customers/:ID" Method= "GET" Call="getCustomers" Cors="false"/>
 	ClassMethod getCustomers(pID As %String) as %Status
 	{
@@ -42,7 +42,8 @@ To install this template into your Cache development environment, for use across
 	}
 		Quit tSC
 	}
-	'''
+	```
+	
 7. Specify additional Routes.
 8. Specify Maps, to define in the Dispatch class.
 9. Click FINISH to generate a dispatch class.  Note that the generated class is NOT Saved automatically for you.
