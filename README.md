@@ -47,7 +47,7 @@ To install this template into your Cache development environment, for use across
 	```
 	
 7. Specify additional Routes.
-8. Specify an Maps for the Dispatch class.
+8. Specify any Maps for the Dispatch class.
 9. Click FINISH to generate a dispatch class.  Note that the generated class is NOT Saved automatically for you.
 
 
